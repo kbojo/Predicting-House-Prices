@@ -1,0 +1,27 @@
+,sum,mean,first_row_value,feature_description,treatment
+pool_qc,2042,2042,,"Pool Quality (Ex, Gd, TA, Fa, NA (No Pool))",Fill NaN with None
+misc_feature,1986,1986,,"Miscellaneous feature not covered in other categories (Elev, Gar2, Othr, Shed, TenC, NA (None))",Fill NaN with None
+alley,1911,1911,,"Type of alley access to property (Grvl, Pave, NA (No alley access))",Fill NaN with None
+fence,1651,1651,,"Fence quality (GdPrv (Good Privacy), MnPrv (Minimum Privacy),GdWo (Good Wood), MnWw (Minimum Wood/Wire), NA (No Fence))",Fill NaN with None
+fireplace_qu,1000,1000,TA,"Fireplace quality (Ex, Gd, TA, Fa, Po, NA (No Fireplace))",Fill NaN with None
+lot_frontage,330,330,43.0,Linear feet of street connected to property,Fill NaN with median lot frontage in neighborhood
+garage_yr_blt,114,114,1997.0,Year garage was built,Fill NaN with None
+garage_cond,114,114,TA,"Garage condition (Ex, Gd, TA, Fa, Po, NA (No Garage))",Fill NaN with None
+garage_qual,114,114,TA,"Garage quality (Ex, Gd, TA, Fa, Po, NA (No Garage))",Fill NaN with None
+garage_finish,114,114,RFn,"Interior finish of the garage (Fin (Finished), RFn (Rough Finished), Unf (Unfinished), NA (No Garage))",Fill NaN with None
+garage_type,113,113,Attchd,"Garage location (2Types, Attchd, Basment, BuiltIn, CarPort, Detchd, NA (No Garage))",Fill NaN with None
+bsmt_exposure,58,58,No,"Refers to walkout or garden level walls (Gd, Av, Mn, No, NA)",Fill NaN with None
+bsmtfin_type_2,56,56,Unf,"Rating of basement finished area (if multiple types)(GLQ, ALQ, BLQ, Rec, LwQ, Unf, NA (No Basement)",Fill NaN with None
+bsmt_cond,55,55,TA,"Evaluates the general condition of the basement (Ex, Gd, TA, Fa, Po, NA (No Basement))",Fill NaN with None
+bsmt_qual,55,55,Gd,"Evaluates the height of the basement (Ex(100+ inches),Gd (90-99 inches),TA (80-89 inches),Fa (70-79 inches), Po (<70 inches), NA (No Basement)",Fill NaN with None
+bsmtfin_type_1,55,55,GLQ,"Rating of basement finished area (GLQ, ALQ, BLQ, Rec, LwQ, Unf, NA (No Basement))",Fill NaN with None
+mas_vnr_type,22,22,BrkFace,"Masonry veneer type (BrkCmn, BrkFace, CBlock, None, Stone)",Fill NaN with None
+mas_vnr_area,22,22,132.0,Masonry veneer area in square feet,"Fill with float 0,0"
+bsmt_half_bath,2,2,0.0,Basement half bathrooms (Discrete),"Fill with float 0,0"
+bsmt_full_bath,2,2,1.0,Basement full bathrooms (Discrete),"Fill with float 0,0"
+garage_cars,1,1,2.0,Size of garage in car capacity (Discrete),"Fill with float 0,0"
+bsmtfin_sf_1,1,1,637.0,Type 1 finished square feet (Continuos),"Fill with float 0,0"
+bsmtfin_sf_2,1,1,0.0,Type 2 finished square feet (Continuos),"Fill with float 0,0"
+bsmt_unf_sf,1,1,276.0,Unfinished square feet of basement area (Continuos),"Fill with float 0,0"
+garage_area,1,1,559.0,Size of garage in square feet (Continuos),"Fill with float 0,0"
+total_bsmt_sf,1,1,913.0,Total square feet of basement area (Continuos),"Fill with float 0,0"
